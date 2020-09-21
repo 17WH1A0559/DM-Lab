@@ -1,0 +1,18 @@
+%college data
+
+@relation student
+@attribute name string
+@attribute rno numeric
+@attribute gender {Male,Female}
+@attribute dept {CSE,EEE,ECE,IT}
+@attribute phno numeric
+@attribute exmstatus {Pass,Fail}
+@attribute eligible {Yes,No}
+
+
+@data
+Hari,55,Male,CSE,8888888888,Pass,Yes
+Rani,25,Female,ECE,7777766666,Pass,Yes
+Vani,31,Female,EEE,5555588899,Fail,No
+Deeksha,16,Female,IT,3333567891,Pass,Yes
+Sai,4,Male,EEE,9999945678,Fail,No
